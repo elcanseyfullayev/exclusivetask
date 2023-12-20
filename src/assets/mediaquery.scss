@@ -1,0 +1,166 @@
+@media only screen and (max-width: 1400px) {
+    #opening {
+        padding: 20px 40px;
+    }
+
+    #sales {
+        margin: 0 40px;
+    }
+
+    #category {
+        margin: 0 40px;
+    }
+
+    #best {
+        padding: 40px 40px;
+    }
+
+    #enhance {
+        margin: 0 40px;
+    }
+
+    #explore {
+        padding: 40px 40px;
+    }
+
+    #new {
+        padding: 40px 40px;
+    }
+
+    #about {
+        padding: 100px 50px;
+    }
+
+    footer {
+        padding: 100px 40px;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    nav {
+        padding: 0 50px;
+    }
+
+    #opening {
+        .slider {
+            padding-left: 20px;
+        }
+    }
+
+    .carousel-item {
+        min-width: 700px !important;
+        min-height: 430px !important;
+    }
+
+    .carousel-image {
+        min-width: 700px !important;
+        min-height: 430px !important;
+    }
+
+    .carousel-container {
+        min-width: 700px !important;
+        min-height: 430px !important;
+    }
+
+    #new {
+        .images {
+            flex-direction: column;
+            align-items: center;
+
+            .imagesright {
+                .imagetop {
+                    width: 853px;
+                    height: 408px;
+                }
+
+                .imagesbottom {
+                    .imageright {
+                        width: 416px;
+                    }
+
+                    .imageleft {
+                        width: 416px;
+                    }
+                }
+            }
+        }
+    }
+
+    #about {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    footer {
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 40px;
+    }
+}
+
+@media only screen and (max-width: 920px) {
+    .carousel-item {
+        min-width: 500px !important;
+        min-height: 430px !important;
+    }
+
+    .carousel-image {
+        min-width: 500px !important;
+        min-height: 430px !important;
+    }
+
+    .carousel-container {
+        min-width: 500px !important;
+        min-height: 350px !important;
+    }
+
+    .slick-slide {
+        div {
+            img {
+                height: 150px;
+            }
+        }
+    }
+
+    #enhance {
+        img {
+            height: 482px;
+            right: -15px;
+            top: 112px;
+        }
+    }
+
+    #new {
+        .images {
+            flex-direction: column;
+            align-items: center;
+
+            .image {
+                width: 643px;
+                height: 500px;
+            }
+
+            .imagesright {
+                display: flex;
+                align-items: center;
+                flex-direction: column;
+
+                .imagetop {
+                    width: 643px;
+                    height: 320px;
+                }
+
+                .imagesbottom {
+                    .imageright {
+                        width: 317px;
+                    }
+
+                    .imageleft {
+                        width: 317px;
+                    }
+                }
+            }
+        }
+    }
+}

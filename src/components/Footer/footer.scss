@@ -1,0 +1,78 @@
+footer {
+    display: flex;
+    flex-direction: row;
+    padding: 100px 0px;
+    background-color: black;
+    color: white;
+    padding: 100px 150px;
+    justify-content: space-between;
+    .ad {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        input {
+            font-size: 20px;
+            width: 230px;
+            background-color: black;
+            border: 1px solid white;
+            padding: 10px 10px;
+            color: white;
+        }
+    }
+    .footerBox {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        p {
+            cursor: pointer;
+            transition: 300ms;
+            &:hover {
+                color: lawngreen;
+            }
+        }
+    }
+    .download {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        .downBox {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            p {
+                color: gray;
+            }
+            .images {
+                display: flex;
+                flex-direction: row;
+                gap: 10px;
+                img {
+                    height: 100px;
+                }
+                .imagesRight {
+                    display: flex;
+                    flex-direction: column;
+                    gap: 20px;
+                    img {
+                        height: 40px;
+                        background-color: black;
+                        cursor: pointer;
+                    }
+                }
+            }
+        }
+        .social {
+            display: flex;
+            flex-direction: row;
+            gap: 20px;
+            font-size: 23px;
+            i {
+                cursor: pointer;
+                transition: 300ms;
+                &:hover {
+                    color: lawngreen;
+                }
+            }
+        }
+    }
+}
